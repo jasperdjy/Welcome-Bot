@@ -47,7 +47,7 @@ console.log('\x1b[32m%s\x1b[0m', `|    🌼 Logged in as ${client.user.username}
 const totalMembers = client.guilds.cache.reduce((total, guild) => total + guild.memberCount, 0);
 setInterval(() => client.user.setActivity({ 
   name:`𝐃𝐞𝐦𝐨𝐧'𝐬 𝐇𝐞𝐚𝐯𝐞𝐧`, 
-  type: ActivityType.Watching }), 10000);
+  type: ActivityType.streaming }), 10000);
 client.errorLog = config.errorLog
   
 }
