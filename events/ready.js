@@ -46,7 +46,7 @@ console.log('\x1b[32m%s\x1b[0m', `|    🌼 Logged in as ${client.user.username}
 
 const totalMembers = client.guilds.cache.reduce((total, guild) => total + guild.memberCount, 0);
 setInterval(() => client.user.setActivity({ 
-  name:`Cʜɪʟʟ Cʜʀᴏɴɪᴄʟᴇs`, 
+  name:`crackthegames.com`, 
   type: ActivityType.streaming }), 10000);
 client.errorLog = config.errorLog
   
